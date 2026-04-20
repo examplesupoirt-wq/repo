@@ -1,0 +1,6 @@
+{
+  "name": "BitAim Bot Pro - Carrom Disc Pool",
+  "description": "Professional aiming assistant for Carrom Disc Pool. Features real-time multi-line prediction and transparent overlay mode.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["TRANSPARENT_OVERLAY", "PHYSICS_SIMULATION"]
+}
