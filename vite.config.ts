@@ -8,7 +8,7 @@ export default defineConfig(({ mode }) => {
 
   return {
     plugins: [react(), tailwindcss()],
-    
+
     define: {
       'process.env.GEMINI_API_KEY': JSON.stringify(env.GEMINI_API_KEY),
     },
@@ -21,13 +21,6 @@ export default defineConfig(({ mode }) => {
 
     server: {
       hmr: process.env.DISABLE_HMR !== 'true',
-    },
-
-    // 🔥 YE PART ADD KAR
-    preview: {
-      host: "0.0.0.0",
-      port: process.env.PORT ? Number(process.env.PORT) : 3000,
-      allowedHosts: "all"
     }
   };
 });
